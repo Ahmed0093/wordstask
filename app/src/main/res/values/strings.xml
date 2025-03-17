@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">wordstask</string>
+    <string name="refresh">Refresh\n</string>
+    <string name="error_text">error occured\n</string>
+</resources>
