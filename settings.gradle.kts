@@ -22,3 +22,6 @@ dependencyResolutionManagement {
 rootProject.name = "wordstask"
 include(":app")
 include(":database")
+include(":data")
+include(":domain")
+include(":presentation")
