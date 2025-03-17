@@ -5,6 +5,7 @@ converterGson = "2.9.0"
 hiltAndroid = "2.46.1"
 hiltAndroidCompiler = "2.46.1"
 hiltCompiler = "1.0.0"
+javaxInject = "1"
 jsoup = "1.10.3"
 kotlin = "1.9.0"
 coreKtx = "1.13.1"
@@ -36,6 +37,8 @@ material = "1.12.0"
 
 
 [libraries]
+javax-inject = { module = "javax.inject:javax.inject", version.ref = "javaxInject" }
+kotlin-stdlib = { group = "org.jetbrains.kotlin", name = "kotlin-stdlib", version.ref = "kotlin" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 androidx-hilt-compiler = { module = "androidx.hilt:hilt-compiler", version.ref = "hiltCompiler" }
 androidx-hilt-navigation-compose = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "hiltCompiler" }
